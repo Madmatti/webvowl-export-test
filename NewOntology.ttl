@@ -10,9 +10,9 @@
 @prefix dc: 		<http://purl.org/dc/elements/1.1/> .
 @prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
 @prefix wot: 		<http://xmlns.com/wot/0.1/> .
-@prefix : 		<http://visualdataweb.org/SemanGit/> .
 @prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@prefix : 		<http://visualdataweb.org/SemanGit/> .
 @base 			<http://visualdataweb.org/newOntology/> .
 
 <http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
@@ -24,126 +24,147 @@
 #  --------------------------- Property 0------------------------- 
 :datatypeProperty10 rdf:type owl:DatatypeProperty ;
                     rdfs:label "datatypeProperty10"@IRI-based; 
+                    rdfs:label "datatypeProperty10"@iri-based; 
                     rdfs:label "newDatatypeProperty"@en; 
                     rdfs:domain :Class_3;
                     rdfs:range rdfs:Literal . 
 #  --------------------------- Property 1------------------------- 
 :datatypeProperty11 rdf:type owl:DatatypeProperty ;
                     rdfs:label "datatypeProperty11"@IRI-based; 
+                    rdfs:label "datatypeProperty11"@iri-based; 
                     rdfs:label "newDatatypeProperty"@en; 
                     rdfs:domain :Class_2;
                     rdfs:range rdfs:Literal . 
 #  --------------------------- Property 2------------------------- 
 :datatypeProperty12 rdf:type owl:DatatypeProperty ;
                     rdfs:label "datatypeProperty12"@IRI-based; 
+                    rdfs:label "datatypeProperty12"@iri-based; 
                     rdfs:label "newDatatypeProperty"@en; 
                     rdfs:domain :Class_2;
                     rdfs:range rdfs:Literal . 
 #  --------------------------- Property 3------------------------- 
 :datatypeProperty13 rdf:type owl:DatatypeProperty ;
                     rdfs:label "datatypeProperty13"@IRI-based; 
+                    rdfs:label "datatypeProperty13"@iri-based; 
                     rdfs:label "newDatatypeProperty"@en; 
                     rdfs:domain :Class_2;
                     rdfs:range rdfs:Literal . 
 #  --------------------------- Property 4------------------------- 
 :objectProperty1 rdf:type owl:ObjectProperty ;
                  rdfs:label "objectProperty1"@IRI-based; 
+                 rdfs:label "objectProperty1"@iri-based; 
                  rdfs:label "newObjectProperty"@en; 
                  rdfs:domain :Class_3;
                  rdfs:range :Class_2 . 
 #  --------------------------- Property 5------------------------- 
 :objectProperty2 rdf:type owl:ObjectProperty ;
                  rdfs:label "objectProperty2"@IRI-based; 
+                 rdfs:label "objectProperty2"@iri-based; 
                  rdfs:label "newObjectProperty"@en; 
                  rdfs:domain :Class_2;
                  rdfs:range :Class_1 . 
 #  --------------------------- Property 6------------------------- 
 :objectProperty3 rdf:type owl:ObjectProperty ;
                  rdfs:label "objectProperty3"@IRI-based; 
+                 rdfs:label "objectProperty3"@iri-based; 
                  rdfs:label "newObjectProperty"@en; 
                  rdfs:domain :Class_4;
                  rdfs:range :Class_2 . 
 #  --------------------------- Property 7------------------------- 
 :objectProperty4 rdf:type owl:ObjectProperty ;
                  rdfs:label "objectProperty4"@IRI-based; 
+                 rdfs:label "objectProperty4"@iri-based; 
                  rdfs:label "newObjectProperty"@en; 
                  rdfs:domain :Class_5;
                  rdfs:range :Class_2 . 
 #  --------------------------- Property 8------------------------- 
 :objectProperty5 rdf:type owl:ObjectProperty ;
                  rdfs:label "objectProperty5"@IRI-based; 
+                 rdfs:label "objectProperty5"@iri-based; 
                  rdfs:label "newObjectProperty"@en; 
                  rdfs:domain :Class_6;
                  rdfs:range :Class_3 . 
 #  --------------------------- Property 9------------------------- 
 :datatypeProperty21 rdf:type owl:DatatypeProperty ;
                     rdfs:label "datatypeProperty21"@IRI-based; 
+                    rdfs:label "datatypeProperty21"@iri-based; 
                     rdfs:label "newDatatypeProperty"@en; 
                     rdfs:domain :Class_6;
                     rdfs:range rdfs:Literal . 
 #  --------------------------- Property 10------------------------- 
 :datatypeProperty20 rdf:type owl:DatatypeProperty ;
                     rdfs:label "datatypeProperty20"@IRI-based; 
+                    rdfs:label "datatypeProperty20"@iri-based; 
                     rdfs:label "newDatatypeProperty"@en; 
                     rdfs:domain :Class_6;
                     rdfs:range rdfs:Literal . 
 #  --------------------------- Property 11------------------------- 
 :datatypeProperty18 rdf:type owl:DatatypeProperty ;
                     rdfs:label "datatypeProperty18"@IRI-based; 
+                    rdfs:label "datatypeProperty18"@iri-based; 
                     rdfs:label "newDatatypeProperty"@en; 
                     rdfs:domain :Class_5;
                     rdfs:range rdfs:Literal . 
 #  --------------------------- Property 12------------------------- 
 :datatypeProperty7 rdf:type owl:DatatypeProperty ;
                    rdfs:label "datatypeProperty7"@IRI-based; 
+                   rdfs:label "datatypeProperty7"@iri-based; 
                    rdfs:label "newDatatypeProperty"@en; 
                    rdfs:domain :Class_3;
                    rdfs:range rdfs:Literal . 
 #  --------------------------- Property 13------------------------- 
 :datatypeProperty19 rdf:type owl:DatatypeProperty ;
                     rdfs:label "datatypeProperty19"@IRI-based; 
+                    rdfs:label "datatypeProperty19"@iri-based; 
                     rdfs:label "newDatatypeProperty"@en; 
                     rdfs:domain :Class_5;
                     rdfs:range rdfs:Literal . 
 #  --------------------------- Property 14------------------------- 
 :datatypeProperty8 rdf:type owl:DatatypeProperty ;
                    rdfs:label "datatypeProperty8"@IRI-based; 
+                   rdfs:label "datatypeProperty8"@iri-based; 
                    rdfs:label "newDatatypeProperty"@en; 
                    rdfs:domain :Class_3;
                    rdfs:range rdfs:Literal . 
 #  --------------------------- Property 15------------------------- 
 :datatypeProperty6 rdf:type owl:DatatypeProperty ;
                    rdfs:label "datatypeProperty6"@IRI-based; 
+                   rdfs:label "datatypeProperty6"@iri-based; 
                    rdfs:label "newDatatypeProperty"@en; 
                    rdfs:domain :Class_3;
                    rdfs:range rdfs:Literal . 
 #  --------------------------- Property 16------------------------- 
 :datatypeProperty14 rdf:type owl:DatatypeProperty ;
                     rdfs:label "datatypeProperty14"@IRI-based; 
+                    rdfs:label "datatypeProperty14"@iri-based; 
                     rdfs:label "newDatatypeProperty"@en; 
                     rdfs:domain :Class_2;
                     rdfs:range rdfs:Literal . 
 #  --------------------------- Property 17------------------------- 
 :datatypeProperty15 rdf:type owl:DatatypeProperty ;
                     rdfs:label "datatypeProperty15"@IRI-based; 
+                    rdfs:label "datatypeProperty15"@iri-based; 
                     rdfs:label "newDatatypeProperty"@en; 
                     rdfs:domain :Class_2;
                     rdfs:range rdfs:Literal . 
 #  --------------------------- Property 18------------------------- 
 :datatypeProperty16 rdf:type owl:DatatypeProperty ;
                     rdfs:label "datatypeProperty16"@IRI-based; 
+                    rdfs:label "datatypeProperty16"@iri-based; 
                     rdfs:label "newDatatypeProperty"@en; 
                     rdfs:domain :Class_5;
                     rdfs:range rdfs:Literal . 
 #  --------------------------- Property 19------------------------- 
 :datatypeProperty9 rdf:type owl:DatatypeProperty ;
                    rdfs:label "datatypeProperty9"@IRI-based; 
+                   rdfs:label "datatypeProperty9"@iri-based; 
                    rdfs:label "newDatatypeProperty"@en; 
                    rdfs:domain :Class_3;
                    rdfs:range rdfs:Literal . 
 #  --------------------------- Property 20------------------------- 
 :datatypeProperty17 rdf:type owl:DatatypeProperty ;
                     rdfs:label "datatypeProperty17"@IRI-based; 
+                    rdfs:label "datatypeProperty17"@iri-based; 
                     rdfs:label "newDatatypeProperty"@en; 
                     rdfs:domain :Class_5;
                     rdfs:range rdfs:Literal . 
@@ -151,25 +172,31 @@
 #  --------------------------- Class  0------------------------- 
 :Class_3 rdf:type owl:Class; 
          rdfs:label "Class_3"@IRI-based; 
+         rdfs:label "Class_3"@iri-based; 
          rdfs:label "Class 3"@en . 
 #  --------------------------- Class  1------------------------- 
 :Class_4 rdf:type owl:Class; 
          rdfs:subClassOf :Class_6 ;
          rdfs:label "Class_4"@IRI-based; 
+         rdfs:label "Class_4"@iri-based; 
          rdfs:label "Class 4"@en . 
 #  --------------------------- Class  2------------------------- 
 :Class_5 rdf:type owl:Class; 
          rdfs:label "Class_5"@IRI-based; 
+         rdfs:label "Class_5"@iri-based; 
          rdfs:label "Class 5"@en . 
 #  --------------------------- Class  3------------------------- 
 :Class_6 rdf:type owl:Class; 
          rdfs:label "Class_6"@IRI-based; 
+         rdfs:label "Class_6"@iri-based; 
          rdfs:label "Class 6"@en . 
 #  --------------------------- Class  4------------------------- 
 :Class_1 rdf:type owl:Class; 
          rdfs:label "Class_1"@IRI-based; 
+         rdfs:label "Class_1"@iri-based; 
          rdfs:label "Class 1"@en . 
 #  --------------------------- Class  5------------------------- 
 :Class_2 rdf:type owl:Class; 
          rdfs:label "Class_2"@IRI-based; 
+         rdfs:label "Class_2"@iri-based; 
          rdfs:label "Class 2"@en . 
